@@ -1,0 +1,56 @@
+/* src/styles.css */
+.app {
+  text-align: center;
+  padding: 50px;
+  transition: background 0.5s, color 0.5s;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app.happy {
+  background: #ffe066;
+  color: #000;
+}
+
+.app.sad {
+  background: #8ecae6;
+  color: #fff;
+}
+
+.app.angry {
+  background: #ef233c;
+  color: #fff;
+}
+
+.app.neutral {
+  background: #dcdcdc;
+  color: #000;
+}
+
+.app.disgusted {
+  background: #6b4226;
+  color: #fff;
+}
+
+.app.fearful {
+  background: #6a4c93;
+  color: #fff;
+}
+
+.app.surprised {
+  background: #f4d35e;
+  color: #000;
+}
+
+.app.contempt {
+  background: #8d99ae;
+  color: #000;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
